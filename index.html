@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header><h1>Introducción HTML</h1></header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#¿Qué_es_el_HTML?">¿Qué es el HTML?</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Un_documento_HTML_simple"
+            >Un documento HTML simple</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Etiquetas_HTML">Etiquetas HTML</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Navegadores_web">Navegadores web</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Estructura_de_página_HTML"
+            >Estructura de página HTML</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#La_declaración_<!DOCTYPE>"
+            >La declaración < !DOCTYPE ></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="¿Qué_es_el_HTML?">
+        <header>¿Qué es el HTML?</header>
+        <article>
+          <p>HTML es el lenguaje de marcado estándar para crear páginas web.</p>
+          <ul>
+            <li>HTML significa lenguaje de marcado de hipertexto</li>
+            <li>HTML describe la estructura de una página web</li>
+            <li>HTML consiste en una serie de elementos</li>
+            <li>
+              Los elementos HTML le dicen al navegador cómo mostrar el contenido
+            </li>
+            <li>Los elementos HTML están representados por etiquetas</li>
+            <li>
+              Las etiquetas HTML etiquetan piezas de contenido como
+              "encabezado", "párrafo", "tabla", etc.
+            </li>
+            <li>
+              Los navegadores no muestran las etiquetas HTML, pero las usan para
+              representar el contenido de la página
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Un_documento_HTML_simple">
+        <header>Un documento HTML simple</header>
+        <article>
+          <p>
+            Ejemplo
+          </p>
+          <code>
+            < !DOCTYPE html > <br />
+            < html > <br />
+            < head > <br />
+            < title > Page Title < /title > <br />
+            < /head > <br />
+            < body > <br />
+            <br />
+            < h1 > My First Heading < /h1 > <br />
+            < p > My first paragraph. < /p > <br />
+            <br />
+            < /body > <br />
+            < /html > <br />
+          </code>
+          <br />
+        </article>
+      </section>
+      <section class="main-section" id="Etiquetas_HTML">
+        <header>Etiquetas HTML</header>
+        <article>
+          <p>
+            Las etiquetas HTML son nombres de elementos rodeados de corchetes
+            angulares:
+          </p>
+          <code> < tagname > el contenido va aquí ... < /tagname > </code>
+          <ul>
+            <li>
+              Las etiquetas HTML normalmente vienen
+              <strong>en pares</strong> como < p > y < /p >
+            </li>
+            <li>
+              La primera etiqueta en un par es la
+              <strong>etiqueta de inicio</strong>, la segunda etiqueta es la
+              etiqueta final
+            </li>
+            <li>
+              La etiqueta final se escribe como la etiqueta inicial, pero con
+              una <strong>barra diagonal</strong> insertada antes del nombre de
+              la etiqueta
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Navegadores_web">
+        <header>Navegadores web</header>
+        <article>
+          <p>
+            El propósito de un navegador web (Chrome, Edge, Firefox, Safari) es
+            leer documentos HTML y mostrarlos.
+          </p>
+          <p>
+            El navegador no muestra las etiquetas HTML, pero las usa para
+            determinar cómo mostrar el documento:
+          </p>
+          <img
+            src="img_chrome.png"
+            alt="ver en el navegador"
+            id="img_navegador"
+          />
+        </article>
+      </section>
+      <section class="main-section" id="Estructura_de_página_HTML">
+        <br />
+        <header>Estructura de página HTML</header>
+        <article>
+          <p>
+            A continuación se muestra una visualización de la estructura de una
+            página HTML:
+          </p>
+          <img
+            src="Estructura HTML.JPG"
+            alt="estructura HTML"
+            id="img_estructura"
+          />
+        </article>
+      </section>
+      <section class="main-section" id="La_declaración_<!DOCTYPE>">
+        <br />
+        <header>La declaración < !DOCTYPE ></header>
+        <article>
+          <p>
+            La < !DOCTYPE > declaración representa el tipo de documento y ayuda
+            a los navegadores a mostrar las páginas web correctamente.
+          </p>
+          <p>
+            Solo debe aparecer una vez, en la parte superior de la página (antes
+            de cualquier etiqueta HTML).
+          </p>
+          <p>
+            La < !DOCTYPE > declaración no distingue entre mayúsculas y
+            minúsculas.
+          </p>
+          <p>La < !DOCTYPE > declaración para HTML5 es:</p>
+          <code> < !DOCTYPE html > </code>
+        </article>
+      </section>
+      <footer>
+        <p>Sebastian Muñoz Q. ©2020</p>
+      </footer>
+    </main>
+  </body>
+</html>
